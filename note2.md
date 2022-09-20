@@ -25,3 +25,11 @@ head의 title은 인터넷에서 검색했을 때 검색 결과 창에 뜨게 �
 <meta name="twitter:image" content="http://www.mysite.com/article/article1.html">  
 <meta name="twitter:domain" content="사이트 명">  
 
+
+2-7  
+- html, css, js 관련해 구글에서 검색할 때 'mdn'을 붙여서 검색해라. =>mozilla developer network.  
+w3schools는 쓰지 마라.
+
+- mark 태크:형광펜.  
+
+-sub:아래 첨자/sup:윗 첨자
