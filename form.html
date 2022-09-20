@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+</head>
+<body>
+    <form>
+        <input type="color" >
+        <input type="password" >
+        
+        <input placeholder="Name" type="text">              
+        <input placeholder="Last Name" type="text">              
+        <input placeholder="User Name" type="text">              
+        <input placeholder="password" type="text">              
+        <input type="submit">              
+        <input type="submit" value="Create Account">
+        
+        <!--disabled:입력 혹은 클릭을 막는 것.-->
+        <input placeholder="Last Name" disabled type="text">              
+        <p> </p>                      
+        <input required placeholder="Name" type="text">              
+        <input required placeholder="Last Name" type="text">              
+        <input required placeholder="User Name" type="text">              
+        <input required placeholder="password" type="text">              
+        
+        <p> </p>                      
+        <input required placeholder="User Name" minlength ="10" type="text">              
+        <input type="submit" value="Create Account">
+
+        <p></p>
+
+        <input type="file">
+
+        <p></p>
+        <!--accept:지정한 파일 형식만 받을 수 있게(선택할 수 있게) 한다-->
+
+        <input type="file" accept=".pdf">
+        <input type="file" accept="images/*">
+        <input type="file" accept="images/*, .pdf">
+
+        
+    </form>
+</body>
+</html>
