@@ -17,4 +17,5 @@
 2-10
 - semantic=문서를 보기만 해도 그 의미를 짐작할 수 있는 것.
 - 빠르게 그게 무엇인지 인식할 수 있다. 그러므로 semantic을 많이 쓰도록 하자. 
-- div, header, main, footer(꼬리말)
+- header, main, footer...(꼬리말):의미가 있다.
+- div, span 등은 의미가 없다.
