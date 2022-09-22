@@ -13,3 +13,17 @@
 5. 속성이 겹치지 않으면 한 태그의 속성을 여러 번 나눠서 지정하는 것도 가능하다.  
 
 예를 들어 h1{ color:red } 해놓고 다시 h1{font-size:40px}이라고 해도 다 적용된다.  
+
+3.3  
+- 옆에 다른 요소가 올 수 없는 것들을 block, 있는 것들을 inline(in the same line)이라고 한다.  
+
+- block에 해당하는 것들, 예를 들어 div는 요소의 옆에 다른 요소가 올 수 없다. 무조건 아래로 나열된다.(header, main, section, paragraph 등도 그렇다?)  
+
+- 반면 inline인 것들, 예를 들어 span,a,image는 옆에 올 수 있어서 옆으로 나열된다.
+
+- 대부분의 box는 block이다.  
+
+3.4.
+- display 속성: block을 inline으로, 또 반대로도 가능하게 해주는 것.
+
+
