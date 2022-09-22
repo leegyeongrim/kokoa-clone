@@ -24,6 +24,12 @@
 - 대부분의 box는 block이다.  
 
 3.4.
-- display 속성: block을 inline으로, 또 반대로도 가능하게 해주는 것.
+- display 속성: block을 inline으로, 또 반대로도 가능하게 해주는 것.  
+
+- block은 높이와 너비를 가질 수 있지만 inline은 그렇지 않다.  
+
+- box(block?)의 큰 특징 3가지=margin, padding, border.
+
+
 
 
