@@ -72,4 +72,17 @@
 - 규칙 2. main axis는 가로, cross axis는 세로로 적용된다. 전자는 justify-content, 후자는 align-items 같은 게 있다.  
 - 다만 기본 값에서 align-items를 center로 놔도 아무 변화도 없을 것. body의 크기는 '박스의 크기 만큼' 크기 때문에 align-items 하기 전에도 이미 수직으로 중심이기 때문.  
 변화가 있으려면 height 값을 지정해줘야 함.  
-- stretch는 자식 엘리먼트를 늘리는 것. 근데 뒤에서 자식 엘리먼트에다 가로세로 높이를 지정해놨다면 안 먹힐 것.
+- stretch는 자식 엘리먼트를 늘리는 것. 근데 뒤에서 자식 엘리먼트에다 가로세로 높이를 지정해놨다면 안 먹힐 것.  
+
+- flex-direction: main axis와 cross axis 설정 바꾸기.  
+
+3.12.  
+
+- position: 위치를 아주 조금 옮기고 싶을 때 사용.
+
+-  position:fixed; ★★★layer를 부순다. &맨 위로 오게 한다.  
+해주면 스크롤 계속 내려도 원래 위치에 계속 고정.  
+
+
+- 주의:div 중 일부만 pix 시키고 싶으면 전체 div에는 fix 속성 안 줘야 됨. 위 아래 다 주면 겹쳐짐.  
+
