@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>  box   </title>
+    <style>
+
+
+        body{
+            height: 1000vh;
+            margin: 50px;
+        }
+
+        span{
+            color: red;
+            background-color: black;
+            padding: 5px;
+            border-radius: 10px;
+            /*text-decoration: underline;
+            이러면 당연히 안쪽 span까지 언더라인 적용됨. div span 해도 마찬가지.*/
+        }
+
+        div > span {
+            text-decoration: underline;
+        }
+        /*이렇게 > 써줘서 바로 아래 자식 추적하면서 지정하면 그 자식 요소만 속성 바꿔줄 수 있음
+        
+        지금 hello만 div 바로 밑의 자식. 그래서 걔만 밑줄이 그어짐.
+        */
+
+        p span {
+            color: yellow;
+        }
+        /*부모 먼저 써주고 자식 써준다. 이렇게 찾아가서 그 요소만 따로 바꿔준다. 
+        div p span 이렇게 써줘도 됨.
+        */
+        p + span {
+            color: blue;
+        }
+        /*+는 '옆'의 요소=brother를 지정. 지금 brother 가 있는 span은 p의 다음에 있음. 그래서 이렇게 지정해주면 걔만 바꿔지고 inside는 그대로 유지됨. 
+
+        ★★★★주의할 건 이거는 반드시 p '바로 다음'에 span이 와야 한다는 것.  p랑 span 사이에 뭐 하나라도 있으면 적용 안됨. 
+
+
+        그리고 위에서 밑줄도 유지됨. 역시 div의 자식이라 그런가봄.*/
+
+
+    </style>
+
+</head>
+<body>
+    <div>
+        <span>hello</span>
+        <p>
+            asdqweasdadqweasd
+
+            <span>
+                inside
+            </span>
+        </p>
+        <span>brother</span>
+
+
+    </div>
+
+</body>
+</html>                         

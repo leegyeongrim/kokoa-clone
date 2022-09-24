@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>  box   </title>
+    <style>
+
+
+        body{
+            height: 1000vh;
+            margin: 50px;
+        }
+
+        span{
+            color: red;
+            background-color: black;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        input{
+        border: 1px solid blue;
+        }
+
+        input:required{
+        border-color:red;
+        }
+
+        /*혹은 
+                input:optional{
+            border: 1px solid blue;
+        }
+
+        input:required{
+            border: 1px solid red;
+        }
+        */
+
+        input[type="password"]{
+            background-color: greenyellow;
+        }
+
+       /* input[placeholder="username"]{
+            background-color: orange;
+        }*/
+
+        input[placeholder~="name"]{
+            background-color: orange;
+            /* ~ 랑 = 붙여쓴 것. 이러면 해당 문자를 '포함하고 있는' 모든 요소들을 가리키게 됨.*/
+
+        
+
+  
+    </style>
+
+</head>
+<body>
+    <div>
+        <form>
+            <input type="text" placeholder="first name">
+            <input type="text" placeholder="last name">
+            <input type="password" required placeholder="password">
+        </form>
+    
+
+    </div>
+
+</body>
+</html>                         

@@ -86,3 +86,21 @@
 
 - 주의:div 중 일부만 pix 시키고 싶으면 전체 div에는 fix 속성 안 줘야 됨. 위 아래 다 주면 겹쳐짐.  
 
+3.13.  
+- position static:레이아웃이 박슬르 처음 위치하는 곳에 두는 것.  
+
+- position relative: 요쇼가 처음 위치한 곳을 기준으로 위치를 수정. top, bottom, left, right 지정 가능. 요소를 조금씩만 옮기고 싶을 때 사용.  
+
+- ★★id 단위에 속성 부여할 때는 #, class 단위에는 . 을 씀.
+
+- position:absolute:가장 가까운 'relative' 부모를 기준으로 이동시켜줌.  
+바로 부모가 relative 아니면 위로 계속 올라감. (body까지?)  
+
+3.14.  
+
+- pseudo_selector:요소를 더 세부적으로 선택하게 해줌
+
+- ★★★★★★★★★★★★★★★★★★★★★Live Server 사용할 때는 div:last-child 써도 적용이 안됨. live server가 자체적으로 Body 태그 안쪽 맨 아래에 보이지 않는 스크립트 태그 ( 또는 어떤 것 ) 을 만들기 때문에 더이상 div가 last-child가 아니게 되기 때문.  
+
+- '>'는 자식을, '+'는 형제를 찾을 때 사용. '~'는 형제 관계에서 바로 뒤가 아닌 것도 찾을 수 있음. 
+
