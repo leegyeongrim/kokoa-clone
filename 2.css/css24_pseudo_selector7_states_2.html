@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>  box   </title>
+    <style>
+
+
+        body{
+            height: 1000vh;
+            margin: 50px;
+        }
+
+        span{
+            color: red;
+            background-color: black;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        input::placeholder{
+            color:springgreen
+        }
+        /*placeholder를 바꾸고 싶을 때.*/
+
+        p::selection{
+            background-color: blue;
+        }
+        /*p의 텍스트를 드래그 선택하면 파랗게 됨.*/
+
+        p::first-letter{
+            font-size: 80px;
+            background-color: blue;
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <form>
+        <input type="text" placeholder="Name">
+    </form>
+    <p>sadfwersadfafsd</p>
+
+
+</body>
+</html>                         
