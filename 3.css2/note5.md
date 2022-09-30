@@ -38,3 +38,28 @@
 - skew는 비스듬히 기울이기. 각도 입력해야 함. 
 - cf 이런 효과들, 애니매이션은 그래픽 카드에 의해 돌아가는 것.
 - 더 많은 효과들은 transform mdn 참고.
+
+4.3.
+
+- ​    *@keyframes* 애니매이션 이름{
+
+  ​       from{
+
+  ​      }
+
+  ​      to{
+
+  ​      }
+
+  ​    }
+
+- 애니매이션 적용시킬 이미지에 가서 
+        animation: 애니매이션이름 애니매이션처음-끝의 시간 적용방식 infinite(무한 적용 시킬거면);
+- animation: ani 1s ease-in-out;
+
+
+
+4.4.
+
+- https://animista.net/
+- opacity:0 안 보이게 한다.

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>transition</title>
+    <style>
+        a{
+            color:red;
+            background-color: blueviolet;
+            text-decoration: none;
+            padding: 3px 5px;
+            border: 10px;
+            border-radius: 5px;
+            font-size: 90px;
+            transition: all 5000ms cubic-bezier(0.600, -0.280, 0.735, 0.045);
+        }
+        a:hover{
+            border-radius: 40px;
+            color: blueviolet;
+            background-color: red;
+
+        }
+
+        img{
+            border: 10px solid black;
+            border-radius: 50%;
+            animation: ani 1s ease-in-out;
+
+        }
+
+        @keyframes ani{
+            from{
+                transform: rotateX(0);
+            }
+            to{
+                transform: rotateX(360deg);
+            }
+
+        }
+
+    </style>
+</head>
+<body>
+<img src="logo.png" alt="">    
+<span>wewrw</span>
+</body>
+</html>
