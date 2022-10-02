@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>4.5.</title>
+</head>
+<style>
+    body{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    div{
+        background-color: aquamarine;
+        width: 200px;
+        height: 200px;
+    }
+    @media screen and (min-width: 601px) and (max-width:1200px) and (orientation: landscape/*가로모드일 때*/)
+    {
+        div{
+            background-color: gold;
+        }
+    }
+    span{
+        font-size: 36px;
+    }
+    @media screen and (orientation: landscape){
+        span{
+            display: none;
+            /*span을 보여주지 않는다*/
+        }
+    }
+    @media print {
+        body{
+            background-color: chartreuse;
+            /*배경 그래픽 옵션 켜야 함*/
+        }
+    }
+
+</style>
+<body>
+    <div></div>
+    <span>핸드폰 가로로 해주셈</span>
+    
+</body>
+</html> 
