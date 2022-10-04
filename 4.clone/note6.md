@@ -59,4 +59,18 @@
   }
 
 - ​      <i *class*="fas fa-battery-half fa-2x"></i> 
-  fa-2x 해주면 font awesome에서 가져온 아이콘 크기 크게할 수 있다.
+  fa-2x  or fa-lg해주면 font awesome에서 가져온 아이콘 크기 크게할 수 있다.
+
+6.9.
+
+- form의 중요한 속성 2개=action, method.
+- action:어떤 페이지로 데이터를 보낼지 결정. 
+- method-post/get 방식 두 가지. 
+  - post는 백엔드 서버에 정보를 전송. 그래서 더 안전.
+  - get-보안에 취약. 따라서 패스워드 같은 거 말고 url에 포함돼도 상관없는 정보들을 보내야 함. 검색할 때 검색 키워드라거나. 
+  - input name으로 돼있는 곳들에 추가된 정보들을 url에 넣어서 보냄. *friends.html?username=sss&password=222 이런 식으로*
+
+6.10.
+
+- nav 생성 단축키 *nav>ul>li\*4>a*
+- css import한 것도 순서 다 적용되는 거임. 먼저 적용되는 것들부터 순서대로 입력할 것. 주의. 

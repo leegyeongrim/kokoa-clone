@@ -2,6 +2,7 @@
 <html lang="ko">
 <head>
     <link rel="stylesheet" href="css/styles.css"/>
+    <!-- <link rel="stylesheet" href="css/reset.css"/> -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>welcome to kokoatalk</title>
@@ -26,28 +27,25 @@
 
     <header class="welcome-header">
         <h1 class="welcome-header__title">
-            welcome to kokoa clone
+            Welcome to Kokoa clone
         </h1>
         <p class="welcome-header__text">
-            log in with your email or phone number
+            Log in with your email or phone number
         </p>
     </header>
 
-    <form id="login-form">
-        <input type="text" placeholder="email of phone number">
-        <input type="password" placeholder="password">
-        <input type="submit" value="log in ">
-        <input type="submit" value="sign up ">
-        <a href="">find kokoa account or password</a>
+    <form action="friends.html" method="get" id="login-form">
+        <!--get method를 통해 로그인 버튼 클릭하면 input name으로 돼있는 아이디랑 패스워드에 적힌 정보를 url에 추가해서 페이지를 이동함. friends.html?username=sss&password=222 이런 식으로.-->
+        <input name="username" type="text" placeholder="Email of phone number">
+        <input name="password" type="password" placeholder="Password">
+        <input type="submit" value="Log in ">
+        <input type="submit" value="Sign up ">
+        <a href="">Find kokoa account or password</a>
 
     </form>
 
-
-
-
-
     <script
-        src="https://kit.fontawesome.com/6478f529f2.js" 
+        src="https://kit.fontawesome.com/29233b525a.js" 
 
 crossorigin="anonymous"></script>
 </body>
