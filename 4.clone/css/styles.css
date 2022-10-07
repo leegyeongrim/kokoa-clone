@@ -6,11 +6,15 @@
 /*screens*/
 @import "screens/login.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "screens/friends.css";
+@import "components/user-component.css";
+
 
 
 /*styles 파일에는 모든 스크린에 적용될 수 있는 걸 적어놓는다. 폰트 패밀리나 배경색같이.*/
 body{
-    background-color: grey;
+    color: #2e363e;
 }
 
 body{font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
