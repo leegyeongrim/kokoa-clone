@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+    <script src="js/jquery-3.6.1.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script language="JavaScript" src="js/task_unfold.js"></script>
+    <script language="JavaScript" src="js/mail.js"></script>
     <link rel="stylesheet" href="css/styles.css"/>
     <!-- <link rel="stylesheet" href="css/reset.css"/> -->
     <meta charset="UTF-8">
@@ -21,14 +25,15 @@
             <span>11:11</span>
         </div>
         <div class="status-bar__column">
-            <span>50%</span>
-            <i class="fas fa-battery-half fa-2x"></i> 
+            <span>100%</span>
+            <i class="fa-solid fa-battery-full fa-lg"></i> 
             <i class="fas fa-bolt"></i></i>  </div>
     </div>
 <!--nav>ul>li*4-->
 
 <header class="screen-header">
-    <h1 class="screen-header__title">Friends</h1>
+    <h1 class="screen-header__title">Briefing
+    </h1>
     <div class="screen-header__icons">
         <span>
             <i class="fas fa-search fa-lg"></i>
@@ -46,11 +51,33 @@
     </div>
 </header>
 
-<a id="friends-display-link" href="">
-<i class="fas fa-info-circle"></i>
-    Friends'Names Display
-<i class="fas fa-chevron-right fa-xs"></i>
-</a>
+
+<!----------task------------->
+
+<div class="tasks">
+    Today's Task
+    <i class="fas fa-chevron-down fa-xs"></i>
+</div>
+
+<div class='tasks-board'>
+    <ul class="tasks-board-list">
+        <li>
+            <i class="fa-regular fa-square-minus"></i></i>Task1
+        </li>
+        <li>
+            <i class="fa-regular fa-square-minus"></i>Task2
+        </li>
+        <li>
+            <i class="fa-regular fa-square-minus"></i>Task3
+        </li>
+        <li>
+            <i class="fa-regular fa-square-minus"></i>Task4
+        </li>
+        <li>
+            <i class="fa-regular fa-square-minus"></i>Task5
+        </li>
+    </ul>
+</div>
 
 <main class="friends-screen">
     <div class="user-component">
@@ -58,52 +85,90 @@
             <img class="user-component__avatar--xl" src="pp.jpg" alt="">
             <div class="user-component__text">
                 <h4 class="user-component__title">fluorjo</h4>
-                <h6 class="user-component__subtitle">this </h6>
+                <h6 class="user-component__subtitle">남길말 : 퇴근 휴가 퇴사 </h6>
     
             </div>
     
         </div>
         <div class="user-component__column">
-    
+            <i class="fa-solid fa-desktop fa-2x"></i>
+            Task1
         </div>
-    
-    
+        <!-- <div class="user-component__column">
+            <i class="fa-solid fa-person-circle-exclamation fa-2x"></i>
+            Task1
+        </div> -->
+
     </div>
+
+    <!--------------------------mail-------------------->
     <div class="friends-screen__channel">
-         <div class="friends-screen__channel-header">
-            <span>Channel</span>
-            <i class="fas fa-chevron-up fa-xs"></i>
+            <div class="friends-screen__channel-header mail">
+ 
+                <i class="fa-solid fa-envelope-open-text fa-1x">Mail</i>
 
-         </div>
-         <div class="user-component">
-            <div class="user-component__column">
-                <img class="user-component__avatar--sm" src="pp.jpg" alt="">
-                <div class="user-component__text">
-                    <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
-                
-        
-                </div>
-        
             </div>
-            <div class="user-component__column">
-                <div>
-                    <span>2</span>
-                    <i class="fas fa-chevron-right fa-xs"></i>
-                </div>
+            <div class='mail-board'>
+                <ul class="mail-board-list">
+                    <li>
+                        <i class="fa-sharp fa-solid fa-envelope"></i></i>Mail 1
+                    </li>
+                    <li>
+                        <i class="fa-sharp fa-solid fa-envelope"></i></i>Mail 2
+                    </li>
+                    <li>
+                        <i class="fa-sharp fa-solid fa-envelope"></i></i></i>Mail 3
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope-open"></i></i></i>Mail 4
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope-open"></i></i></i>Mail 5
+                    </li>
+                </ul>
+            </div>
 
-        
-            </div>
-        
-        
-        </div>
 
     </div>
+    <details>
+        <summary>마케팅팀📞</summary>
+        <p>
+            <div class="user-component__column">
+            <img class="user-component__avatar--sm" src="ma.png" alt="👤">
+                <div class="user-component__text">
+                    <h4 class="user-component__title user-component__title--not-bold">마팀장</h4>
+                </div>
+            </div>
+        </p>
+        <p>
+            <div class="user-component__column chajang">
+                <span id="down_slash">└</span>
+        
+                <img class="user-component__avatar--sm" src="person.png" alt="👤">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">차차장</h4>
+                    </div>
+            </div>
+        </p>
+        <p>
+            <div class="user-component__column gwajang">
+                <span id="down_slash">└</span>
+                <img class="user-component__avatar--sm" src="person.png" alt="👤">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">곽과장</h4>
+                    </div>
+            </div>
+        </p>
+    </details>
+    <details>
+        <summary>인사팀🙇</summary>
+        <p>내부에 넣을 내용을 입력해주세요</p>
+    </details>
+       
+
 
 
 </main>
-
-
-
 
 <nav class="nav">
     <ul class="nav__list"><!--ul라고 해도 됨-->

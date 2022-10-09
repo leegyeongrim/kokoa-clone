@@ -58,7 +58,7 @@
 
   }
 
-- ​      <i *class*="fas fa-battery-half fa-2x"></i> 
+- ​      <i *class*="fa-solid fa-battery-full fa-lg"></i> 
   fa-2x  or fa-lg해주면 font awesome에서 가져온 아이콘 크기 크게할 수 있다.
 
 6.9.

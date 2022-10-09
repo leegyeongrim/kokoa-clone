@@ -13,10 +13,10 @@
 }
 
 .recommended-friends span{
-    margin: 100px 0;
+    margin: 10px 0;
     display: block;
-    text-align: center;
-    color: var(--gline);
+    text-align:left;
+    color: black;
     font-size: 18px;
 }
 

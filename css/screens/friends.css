@@ -1,18 +1,4 @@
-#friends-display-link{
-    text-align: center;
-    display: block;
-    background-color: #fafafa;
-    padding: 15px 0px;
-    font-size: 18px;
-    margin-bottom: 10px;
-    margin-top: -15px;
 
-}
-
-#friends-display-link i{
-    color: rgba(0,0,0, 0.3);
-
-}
 
 .friends-screen{
     padding:0px var(--horizontal-space);
@@ -23,6 +9,7 @@
     margin-top: 25px;
     border-top: var(--main-border);
     padding-top: 15px;
+    
 }
 
 .friends-screen__channel-header{
@@ -30,6 +17,7 @@
     display: flex;
     justify-content: space-between;
     color: rgba(0, 0, 0, 0.5);
+    
 }
 
 @keyframes hideSplashScreen {
@@ -41,7 +29,7 @@
         visibility: hidden;/*마우스에 안 걸리게 빠져버리게 한다. 이렇게 하면 이게 존재하고 있긴 하나 새 화면들을 클릭할 수 있게 된다. */
     }
 }
-
+/*
 #splash-screen{
     background-color: var(--yellow);
     position: absolute;
@@ -53,7 +41,8 @@
     justify-content: center;
     font-size: 120px;
 
-    /* animation:hideSplashScreen 0.2s ease-in-out forwards;
+    animation:hideSplashScreen 0.2s ease-in-out forwards;
 
-    animation-delay: 0.5s; */
+    animation-delay: 0.5s; 
 }
+*/

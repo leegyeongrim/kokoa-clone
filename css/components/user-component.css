@@ -3,7 +3,7 @@
     justify-content: space-between;
 }
 .user-component,
-.user-component__column:first-child{
+.user-component__column{
     display: flex;
     align-items: center;
 }
@@ -49,4 +49,21 @@
 .user-component__time{
     margin-bottom: 10px;
     display: block;
+}
+
+.user-component__column i:nth-child(1){
+    color: black;
+}
+
+.chajang{
+
+}
+
+.gwajang{
+    margin-left: 30px;
+}
+
+#down_slash{
+    font-size: 40px;
+    font-weight: 600;
 }
