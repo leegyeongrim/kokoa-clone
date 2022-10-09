@@ -17,7 +17,6 @@
     margin-left: 25px;
 }
 
-/*
 
 @keyframes rotateCog {
   from {
@@ -31,5 +30,3 @@
 .screen-header__icons .fa-cog:hover {
   animation: rotateCog 1s linear infinite;
 }
-
-*/

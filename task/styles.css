@@ -183,7 +183,7 @@ box-shadow: 5px 5px;
   align-items: center;
 }
 
-#songlist__songicon1{
+.songlist__songicon1{
   background-color: black;border-radius:20px;
   width: 100px;
   height: 100px;
@@ -215,3 +215,13 @@ box-shadow: 5px 5px;
 
 
 
+.cowoker_head{
+  position: absolute;
+  width: 100vw;
+  top:390px;
+  left: 0;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+
+}

@@ -34,11 +34,11 @@
     position: absolute;
     left:15px;
     bottom: 15px;
-    /*animation:notificationAnimation 3s ease-in-out infinite;*/
+    animation:notificationAnimation 3s ease-in-out infinite;
 
 }
 
-/* @keyframes appearBtnAnimation {
+@keyframes appearBtnAnimation {
     from {
       opacity: 0;
     }
@@ -64,4 +64,4 @@
     animation-delay: 0.8s;
   }
   
-   */
+  

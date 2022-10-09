@@ -109,7 +109,6 @@
     margin-left: 3px;
 }
 
-/*
 
 @keyframes heartBeat {
   0% {
@@ -130,4 +129,3 @@
   will-change: transform;
   animation: heartBeat 1s linear infinite;
 }
-*/
