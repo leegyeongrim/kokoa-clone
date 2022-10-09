@@ -29,20 +29,23 @@
         visibility: hidden;/*마우스에 안 걸리게 빠져버리게 한다. 이렇게 하면 이게 존재하고 있긴 하나 새 화면들을 클릭할 수 있게 된다. */
     }
 }
-/*
-#splash-screen{
-    background-color: var(--yellow);
+
+#splash-screen{ 
+
+    background-color: wheat;
     position: absolute;
     width: 100vw;
     height: 100vh;
     top:0;
     display:flex;
     align-items:center;
-    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-direction: column; 
     font-size: 120px;
 
-    animation:hideSplashScreen 0.2s ease-in-out forwards;
+    animation:hideSplashScreen 0.5s ease-in-out forwards;
 
-    animation-delay: 0.5s; 
+    animation-delay: 1s; 
 }
-*/
+
