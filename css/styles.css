@@ -19,7 +19,7 @@
 @import "components/tasks.css";
 @import "components/mail.css";
 @import "splash.css";
-
+@import "service-menu.css";
 
 
 
@@ -40,11 +40,11 @@ summary {
 }
 
 summary::marker{
-    content: "👥";
+    content: "";
     font-family: monospace;
 }
 details[open] summary::marker {
-    content: "- ";
+    content: "";
 }
 
 details > summary{
