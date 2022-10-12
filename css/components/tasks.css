@@ -74,7 +74,10 @@
   margin-bottom: 5px;
 }
 
-.tasks-board-list li:first-child > div:first-child {
+.tasks-board-list li:first-child > div:first-child,
+.tasks-board-list li:nth-child(3) > div:first-child,
+.tasks-board-list li:nth-child(4) > div:first-child,
+.tasks-board-list li:nth-child(7) > div:first-child {
   color: var(--yellow);
 }
 
