@@ -1,69 +1,70 @@
-
-.user-component{
-    justify-content: space-between;
+.user-component {
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 .user-component,
-.user-component__column{
-    display: flex;
-    align-items: center;
+.user-component__column {
+  display: flex;
+  align-items: center;
 }
 
 .user-component__avatar {
-    width: 70px;
-    height:70px;
-    border-radius: 30%;
-    margin-right: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 27px;
+  margin-right: 20px;
 }
 
-.user-component__title{
-    font-weight: 600;
-    font-size: 22px;
-
+.user-component__title {
+  font-weight: 600;
+  font-size: 22px;
 }
-.user-component__subtitle{
-    margin-top: 8px;
-    color: rgba(0, 0, 0, 0.5);
-    font-size: 17px;
-}
-
-.user-component__avatar--xl{
-    width: 80px;
-    height:80px;
-}
-.user-component__avatar--sm{
-    width: 60px;
-    height:60px;
-    border-radius: 25px;
-}
-.user-component__title--not-bold{
-    font-weight: 400;
+.user-component__subtitle {
+  margin-top: 8px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 17px;
 }
 
-.user-component__column:last-child{
-    color:rgba(0, 0, 0, 0.4);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 30px;
+}
+.user-component__avatar--sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 25px;
+}
+.user-component__title--not-bold {
+  font-weight: 400;
 }
 
-.user-component__time{
-    margin-bottom: 10px;
-    display: block;
+.user-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.user-component__column i:nth-child(1){
-    color: black;
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
 }
 
-.chajang{
-
+.user-component__column i:nth-child(1) {
+  color: var(--yellow);
+  font-size: 40px;
+  margin-bottom: 8px;
 }
 
-.gwajang{
-    margin-left: 30px;
+.chajang {
 }
 
-#down_slash{
-    font-size: 40px;
-    font-weight: 600;
+.gwajang {
+  margin-left: 30px;
+}
+
+#down_slash {
+  font-size: 40px;
+  font-weight: 600;
 }
