@@ -1,8 +1,12 @@
 .user-component {
   justify-content: space-between;
-  margin-top: 15px;
-  margin-bottom: 20px;
 }
+
+.user-me {
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
 .user-component,
 .user-component__column {
   display: flex;
@@ -67,4 +71,17 @@
 #down_slash {
   font-size: 40px;
   font-weight: 600;
+}
+.friends-screen__insa,
+.friends-screen__marketing {
+  margin-top: 20px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+.friends-screen__insa-header,
+.friends-screen__marketing-header {
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
 }
