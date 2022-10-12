@@ -74,6 +74,10 @@
   margin-bottom: 5px;
 }
 
+.tasks-board-list li:first-child > div:first-child {
+  color: var(--yellow);
+}
+
 .tasks-board-list li > div:first-child:hover {
   cursor: pointer;
   color: var(--yellow);
